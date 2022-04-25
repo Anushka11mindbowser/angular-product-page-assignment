@@ -1,0 +1,50 @@
+h1 {
+    font-family: 'PT Mono', monospace;
+    font-weight: bolder;
+    font-size: 50px;
+    color: #F8BD18;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'PT Mono', monospace;
+    font-weight: 900;
+    font-size: x-large;
+    color: #EB6D83;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'PT MOno', monospace;
+    font-weight: 900;
+    font-size: larger;
+    color: #783C6F;
+    text-align: center;
+}
+
+button {
+    background-color: cornflowerblue;
+    color: white;
+    margin: auto;
+    padding: 2;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    height: 70;
+    width: 400;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+img {
+    height: 350px;
+    width: 450px;
+    margin: auto;
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}

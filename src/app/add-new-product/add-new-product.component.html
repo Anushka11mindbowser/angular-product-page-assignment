@@ -1,0 +1,54 @@
+<h1>Fill in the details for the product</h1>
+
+
+<form [formGroup]="prodForm" #productsForm="ngForm" (ngSubmit)="getProductsFormData(productsForm.value)">
+    <div class="form-group">
+        <input type="number" class="form-control" id="1" ngModel formControlName="id" placeholder="Enter Product Id(strictly numeric value): ">
+        <span *ngIf="id && id.invalid && id.touched">Input must be in numeric</span>
+    </div>
+
+    <div class="form-group">
+        <input type="text" class="form-control" id="2" ngModel formControlName="productName" placeholder="Enter Product Name">
+        <span *ngIf="productName && productName.invalid && productName.touched">Only 30 alphanumeric characters are permitted!</span>
+    </div>
+
+    <div class="form-group">
+        <input type="text" class="form-control" id="3" ngModel formControlName="productCategory" placeholder="Enter Product Category">
+        <span *ngIf="productCategory && productCategory.invalid && productCategory.touched">Only 30 characters are allowed</span>
+    </div>
+
+    <div class="form-group">
+        <input type="number" class="form-control" id="4" ngModel formControlName="price" placeholder="Enter Product Price">
+        <span *ngIf="price && price.invalid && price.touched">Input must be entered</span>
+    </div>
+
+    <div class="form-group">
+
+
+        <input type="text" class="form-control" id="4" ngModel formControlName="serialNumber" placeholder="Enter Serial Number Here">
+        <span *ngIf="serialNumber && serialNumber.invalid && serialNumber.touched">Input must be numeric</span>
+    </div>
+
+    <div class="form-group">
+        <input type="number" class="form-control" id="5" ngModel formControlName="stockUnit" placeholder="Enter stock units">
+        <span *ngIf="stockUnit && stockUnit.invalid && stockUnit.touched">Input must be numeric</span>
+    </div>
+
+    <div class="form-group">
+        <input type="date" class="form-control" id="6" ngModel formControlName="releaseDate" placeholder="Enter the release date">
+        <span *ngIf="releaseDate && releaseDate.invalid && releaseDate.touched">Cannot leave empty</span> </div>
+
+    <div class="form-group">
+        <input type="text" class="form-control" id="7" ngModel formControlName="description" placeholder="Description">
+        <span *ngIf="description && description.invalid && description.touched">30 characters allowed only!</span>
+    </div>
+    <br>
+
+
+    <button type="submit" class="btn btn-primary" [disabled]="prodForm.form.invalid">Add this Product</button>
+    <br>
+
+    <button type="button" (click)="goBack()" class="btn btn-primary">Go Back</button>
+
+
+</form>

@@ -1,0 +1,39 @@
+h1 {
+    padding: 2px;
+    margin: 35px;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Supermercado One', cursive;
+}
+
+input {
+    width: 50%;
+    height: 50px;
+    border-bottom: 2px solid cornflowerblue;
+    margin: auto;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.form-group {
+    border: none;
+}
+
+button {
+    margin-top: 20px;
+    margin: auto;
+    height: 50px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+}
+
+span {
+    padding: 2px;
+    text-align: center;
+    font-family: 'Supermercado One', cursive;
+    color: brown;
+}

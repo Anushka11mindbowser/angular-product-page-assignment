@@ -1,0 +1,44 @@
+    table {
+        border: 2px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    tr {
+        background-color: #028A9B;
+    }
+    
+    td {
+        border: 1px solid;
+        background-color: #028A9B;
+    }
+    
+    .b1,
+    .b2 {
+        width: 200px;
+        height: 50px;
+        background-color: #F8A147;
+        color: antiquewhite;
+        display: grid;
+        margin: auto;
+        text-align: center;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    h1 {
+        padding: 2px;
+        font-family: 'Supermercado One', cursive;
+        font-size: 50px;
+        font-weight: bolder;
+        color: #3BA468;
+        text-align: center;
+        margin: 45px;
+    }
+    
+    .clicked {
+        cursor: pointer;
+    }

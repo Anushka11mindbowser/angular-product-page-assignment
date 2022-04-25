@@ -1,0 +1,83 @@
+{
+    "products": [{
+            "id": 0,
+            "productName": "Samsung Refrigerator",
+            "productCategory": "Home Appliances",
+            "price": 55000,
+            "stockUnit": 11,
+            "serialNumber": "11111998",
+            "releaseDate": "2022-04-25",
+            "description": "Must for kepping your veggies clean and fresh"
+        },
+        {
+            "id": 1,
+            "productName": "Zara Trench Coat",
+            "productCategory": "Clothing",
+            "price": 9500,
+            "serialNumber": "22122005",
+            "stockUnit": 32,
+            "releaseDate": "2022-04-25",
+            "description": "Fashoinable Coats for this winter"
+        },
+        {
+            "id": 2,
+            "productName": "MAC Highlighter",
+            "productCategory": "Cosmetics",
+            "price": 5400,
+            "serialNumber": "85679587689",
+            "stockUnit": 89,
+            "releaseDate": "2022-04-22",
+            "description": "Perfect Highlighter for sleek face"
+        },
+        {
+            "id": 3,
+            "productName": " Brossil Glass Planters",
+            "productCategory": "Planters and Containers",
+            "price": 250,
+            "serialNumber": "25042022",
+            "stockUnit": 75,
+            "releaseDate": "2022-04-22",
+            "description": "Funky planters for your beloved plants and saplings"
+        },
+        {
+            "id": 4,
+            "productName": "Prestige Saucepans",
+            "productCategory": "Utensils",
+            "price": 650,
+            "serialNumber": "07092008",
+            "stockUnit": 115,
+            "releaseDate": "2022-04-22",
+            "description": "Premium Quality Saucepans"
+        },
+        {
+            "id": 5,
+            "productName": "Wooden Shelves",
+            "productCategory": "Furniture",
+            "price": 4300,
+            "serialNumber": "1802201",
+            "stockUnit": 76,
+            "releaseDate": "2022-04-22",
+            "description": "Decorate you house withe classy maple-wooded shelves"
+        },
+        {
+            "id": 6,
+            "productName": "Wooden Chairs",
+            "productCategory": "Furniture",
+            "price": 2500,
+            "serialNumber": "123456789",
+            "stockUnit": 5,
+            "releaseDate": "2022-04-20",
+            "description": "Comfortable Chairs"
+        },
+        {
+            "id": 7,
+            "productName": "maggi",
+            "productCategory": "Food",
+            "price": 65,
+            "serialNumber": "667889",
+            "stockUnit": 6,
+            "releaseDate": "2022-04-05",
+            "description": "Tasty Noodles"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+h1 {
+    font-family: 'Supermercado One', cursive;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 35px;
+    padding: 2px;
+    color: saddlebrown;
+}
+
+p {
+    font-family: 'Supermercado One', cursive;
+    font-weight: bold;
+    font-size: x-large;
+    margin: 5px;
+    padding: 1px;
+    text-align: center;
+    color: darkblue;
+}
+
+span {
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 700;
+    font-size: larger;
+    margin: 5px;
+    padding: 1px;
+    color: cornflowerblue;
+}
