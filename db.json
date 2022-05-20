@@ -1,4 +1,8 @@
 {
+    "users": [{ "email": "anushkapawar35@gmail.com", "password": "Anushka@11" },
+        { "email": "push@gmail.com", "password": "Pushme" }
+    ],
+
     "products": [{
             "id": 0,
             "productName": "Samsung Refrigerator",

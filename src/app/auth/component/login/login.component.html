@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="card">
+
+        <h1>Log In!</h1>
+        <form [formGroup]="loginForm" #login="ngForm" (ngLogin)="login(login.value)">
+            <div class="form-group">
+                <label>Your Mail Id: </label>
+                <input type="email" class="form-control" id="1" , ngModel formControlName="mailid" placeholder="Enter your mail id here">
+                <span *ngIf="mailid && mailid.invalid && mailid.touched "> Please enter a valid email-id</span>
+            </div>
+
+            <div class="form-group">
+                <label>Password:</label>
+                <input type="password" class="form-control" id="2" , ngModel formControlName="pass" placeholder="Enter Password">
+                <span *ngIf="pass && pass.invalid && pass.touched">Enter valid password</span>
+
+            </div>
+
+            <button type="login" class="btn btn-primary" [disabled]="loginForm.invalid"></button>
+
+        </form>
+
+
+
+
+    </div>
+
+
+
+</div>

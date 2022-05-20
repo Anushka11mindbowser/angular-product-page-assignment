@@ -26,3 +26,27 @@ span {
     padding: 1px;
     color: cornflowerblue;
 }
+
+.green {
+    color: green;
+    font-size: larger;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+}
+
+.orange {
+    color: orange;
+    font-size: larger;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+}
+
+.red {
+    color: red;
+    font-size: larger;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+}

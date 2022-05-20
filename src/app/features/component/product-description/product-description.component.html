@@ -12,10 +12,14 @@
 <h1>Product Description</h1>
 
 <p>id : <span>{{productId}}</span></p>
-<p> Product Name:<span>{{name}}</span></p>
+<p> Product Name:<span>{{name| uppercase }}</span></p>
 <p>Category : <span>{{category}} </span></p>
-<p> Product Price : <span>{{price}} </span></p>
+<p> Product Price : <span>{{price| currency: "USD": "symbol-narrow" }} </span></p>
 <p>Product Stock Units : <span>{{stockunit}}</span></p>
+<div class="green" *ngIf="stockunit>10">Available</div>
+<div class="orange" *ngIf="stockunit<=10 && stockunit>3">Only {{stockunit}} left!</div>
+<div class="red" *ngIf="stockunit<3">Only {{stockunit}} left!</div>
+
 <p>Product Serial Number : <span>{{serialnumber}}</span></p>
-<p>Product Release Date : <span>{{releasedate}}</span></p>
+<p>Product Release Date : <span>{{releasedate | date: "mediumDate"}}</span></p>
 <p> Product Description : <span>{{description}}</span></p>

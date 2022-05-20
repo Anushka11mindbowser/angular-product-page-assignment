@@ -1,0 +1,66 @@
+    .container {
+        width: 250vh;
+        height: 100vh;
+        padding: 45px;
+        background: url("src/assets/mshop.jpg");
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    form {
+        width: 85vh;
+    }
+    
+    .form-control .ng-touched.ng-invalid {
+        border: coral 2px solid;
+    }
+    
+    .card {
+        margin: auto;
+        width: 105vh;
+        height: 95vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        text-align: center;
+        border-radius: 35px;
+    }
+    
+    .form-group {
+        width: 100%;
+        overflow: hidden;
+        font-size: 20px;
+        padding: 8px 0;
+        margin: 8px 0;
+        border-bottom: 2px solid cornflowerblue;
+    }
+    
+    .form-group input {
+        border: none;
+        outline: none;
+        background: none;
+        color: none;
+    }
+    
+    h1 {
+        margin: 15px;
+        padding: 15px;
+    }
+    
+    button {
+        border: 2px;
+        border-radius: 15px;
+        width: 20vh;
+        height: 7vh;
+        background-color: cornflowerblue;
+    }
+    
+    input.ng-valid.ng-touched {
+        border: 2px red solid;
+    }
+    
+    small {
+        color: red
+    }
